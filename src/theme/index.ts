@@ -1,4 +1,3 @@
-// src/theme/index.ts
 import type { ThemeConfig } from 'antd';
 import { pastelColors } from './colors';
 
@@ -37,9 +36,9 @@ export const lightTheme: ThemeConfig = {
       colorBgContainer: pastelColors.surface,
     },
     Alert: {
-      colorInfoBg: '#F0F8FF',
+      colorInfoBg: '#D1F2FF',
       colorSuccessBg: '#F4FCE3',
-      colorErrorBg: '#FFF0F0',
+      colorErrorBg: pastelColors.error,
     },
   },
 };
